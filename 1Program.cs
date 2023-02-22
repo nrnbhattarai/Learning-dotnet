@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Configuration;
+// using InheritanceExample;
 namespace PreBasic
 {
     class Programs
@@ -12,7 +13,7 @@ namespace PreBasic
             // Loops l = new();
             // l.LearnLoops();
 
-            Selection sec = new();
+            // Selection sec = new();
 
             // Method me = new();
             // me.PrintMessage();
@@ -45,17 +46,58 @@ namespace PreBasic
 
             // for this alternatives use constructor
 
-            Fifa worldcup2022 = new("Qatar");
-            Fifa worldcup2002 = new("Qatar", new DateTime(2002, 02, 04), "Nepal", new string[] { "Nepal", "Brazil", "argentina" });
+            // Fifa worldcup2022 = new("Qatar");
+            // Fifa worldcup2002 = new("Qatar", new DateTime(2002, 02, 04), "Nepal", new string[] { "Nepal", "Brazil", "argentina" });
 
-            Fifa.groups = 10; //static value is accessed through classes only to make changes 
-                              // if it is const instead of static then we cant set the value 
+            //Fifa.groups = 10; //static value is accessed through classes only to make changes 
+            // if it is const instead of static then we cant set the value 
+
+            //   C c1=new();
+            //   c1.y
+
+            // inheritance
+            // IShape shape = new Rectangle(4f, 6.6f);
+            // var a = shape.GetArea();
+            // var b = shape.GetPerimeter();
+            // Console.WriteLine(a);
+            // Console.WriteLine(b);
+
+            // shape = new Square(23.4f);
+            // var sa = shape.GetArea();
+            // var sp = shape.GetPerimeter();
+            // Console.WriteLine(sa);
+            //     Console.WriteLine("The perimeter is " + sp);
+
+            // //shape = new Circle(3.14f);
+            // var cp = shape.GetPerimeter();
+            // Console.WriteLine("The perimeter is circle " + cp);
+
+
+            // Generic
+            // Generic g = new();
+            // g.PrintDetails("hi hello world");
+            // g.PrintDetails<bool>(false);
+            // g.PrintDetails('F');
+
+
+            //   FileIO fi = new();
+            //  // fi.CreateFile();
+            //   fi.CreateDirectory();
+            //   fi.CreateDirectoriesAndFiles();
+            //   FileIOLoop fii = new();
+            //   fii.CreateDirectoriesFiles();
 
 
 
+            // LinQ
+            // Linq lin = new Linq();
+            // lin.LearnQuery();
 
 
+//learn to querry on object collection
 
+// Linq li = new();
+// li.LearnToQuerryOnObjectCollection();
 
         }
     }
